@@ -1,0 +1,297 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.row
+{
+	width: 1140px;
+	margin: 0 auto;
+}
+
+body
+{
+	font-family: tahoma;
+	   /* background: url('https://www.anern.com/Uploads/attached/image/20171117/20171117061035_76453.jpg') no-repeat fixed;*/
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain;
+}
+
+.hero
+{
+	position: absolute;
+	width: 1140px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+header
+{
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url("https://www.anern.com/Uploads/attached/image/20171117/20171117061035_76453.jpg");
+	-webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain;
+	height: 100vh;
+	/*background-position: center;
+	background-size: cover;
+	background-attachment: fixed;*/
+}
+
+h1
+{
+	color: #33F0FF;
+}
+
+.main-nav
+{
+	list-style: none;
+	float: left;
+	margin-left: 700px;
+}
+
+.main-nav li
+{
+	display: inline-block;
+	margin-left: 20px;
+	margin-top: 35px;
+}
+
+.main-nav li a
+{
+	color: #33F0FF;
+	text-decoration: none;
+	font-size: 90%;
+}
+
+.main-nav li a:hover
+{
+	color: #33F0FF;
+	border-bottom: 	2px solid #33F0FF;
+	transition: all 0.4s ease-in;
+	padding: 10px 0;
+}
+
+
+
+.logo img
+{
+	height: 40px;
+	float: left;
+	margin-top: 20px;
+	margin-left: 0.5px;
+}
+
+.btn
+{
+	border: 1px solid #33F0FF;
+	padding: 10px 30px;
+	color: #33F0FF;
+	text-decoration: none;
+	border-radius: 12px;
+}
+
+.button-awesome 
+{
+	margin-top: 50px;
+}
+
+.btn-hungry: hover
+{
+	color: #33F0FF;
+	transition: all 0.4s ease-in;
+}
+
+.btn-option: hover
+{
+	color: #ffffff;
+	transition: all 0.4s ease-in;
+}
+
+.copy
+{
+	width: 70%;
+	margin-left: 15%;
+	margin-bottom: 20px;
+}
+
+h3:after
+{
+	width: 100px;
+	height: 2px;
+	background-color: #123AAF;
+	display: block;
+	content: " ";
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+.arranging
+{
+	text-align: justify;
+}
+
+.features i
+{
+	font-size: 40px;
+	color: #123AAF;
+	margin-left: 37%;
+}
+
+.features h4
+{
+	margin-left: 40px;
+
+}
+
+.features h3
+{
+	margin-top: 80px;
+	margin-bottom: 30px;
+}
+
+.meal-showcase
+{
+	list-style: none;
+	width: 100%;
+}
+
+.meal-showcase li
+{
+	display: block;
+	width: 25%;
+	float: left;
+}
+
+.meal-photo
+{
+	width: 100%;
+	margin: 0;
+	overflow:hidden;
+}
+
+.meal-photo img
+{
+	width: 100%;
+	height: auto;
+	transform: scale(1.15);
+	transition: all 0.5s;
+}
+
+.meal-photo img:hover
+{
+	transform: scale(1.0);
+}
+
+.meal
+{
+	margin-top: 80px;
+	margin-bottom: 30px;
+}
+
+.pic img
+{
+	width: 95%;
+	margin-left: 30px;
+}
+
+.workstep
+{
+	margin-top: 15%;
+}
+
+.workstep div
+{
+	border: 1px solid #123AAF;
+	display: inline-block;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+}
+
+.clearfix
+{
+	zoom:1;
+}
+
+.clearfix after
+{
+	visibility: hidden;
+	content: ".";
+	height: 0;
+	display: block;
+	clear: both;
+}
+
+.mobile
+{
+	margin-top: 60px;
+}
+
+
+
+.cities
+{
+	margin-top: 60px;
+}
+
+
+.cities img
+{
+	width: 100%;
+	margin-top: 10%;
+}
+
+.cities i
+{
+	color: #123AAF; 
+}
+
+.testimonials
+{
+	margin-top: 80px;
+	background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("https://assets.kpmg.com/content/dam/kpmg/de/images/Themen/2018/180425-hero-carousel-fbb-1400x350-strassenlaternen.jpg/jcr:content/renditions/cq5dam.web.1400.350.jpg");
+	padding-top: 80px;
+	padding-bottom: 60px;
+	color: white;
+	background-attachment: fixed;
+}
+
+.testimonials p
+{
+	color: white;
+	line-height: 25px;
+	text-align: justify;
+	margin-top: 40px;	
+}
+
+.testimonials cite img
+{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin-right: 10px;
+}
+
+.btn-block
+{
+	background-color: #123AAF;
+	color: white;
+	border-radius: 4px;
+	margin-top: 20px;
+}
+
+.gap
+{
+	margin-top: 40px;
+}
+
+.form
+{
+	margin-top: 40px;
+}
